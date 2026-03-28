@@ -20,7 +20,7 @@ After trying several browser-based message unsenders with little success, I deci
 
 ## How to Use
 
-⚠ **Currently, only 1440p (16:9) screens are supported**  
+⚠ **Currently, only 1440p/2K (16:9) screens and 4K are supported**  
 (Specific screen positions are hardcoded for performance reasons.)
 
 ### Steps:

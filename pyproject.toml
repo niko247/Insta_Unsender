@@ -1,0 +1,27 @@
+[project]
+name = "insta-unsender"
+version = "0.1.0"
+description = "Unsend messages from insta"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "pyautogui",
+    "pyscreeze",
+    "pillow",
+    "keyboard",
+    "screeninfo",
+]
+
+#to run `insta-unsender` from CLI
+[project.scripts]
+ insta-unsender = "main:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
